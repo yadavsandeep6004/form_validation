@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@200;300&family=Poppins:wght@200&family=Roboto:wght@300&family=Work+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    min-height: 100vh;
+    background-color: purple;
+    text-align: center;
+}
+.form-container{
+    background-color: aliceblue;
+    display: inline-block;
+    min-height: 100vh;
+    min-width: 35%;
+    padding: 1rem ;
+    border-radius: 9px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:aliceblue;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    height: 6rem;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+label{
+    font-size: medium;
+    font-weight: 400;
+}
+
+input{
+    border: none;
+    width: 80%;
+    height: 2.3rem;
+    outline-color:rgb(20, 20, 20);
+    border-radius:2px;
+    padding: 0.3rem;
+    margin: 0.4rem 0;
+    background-color: aliceblue;
+   
+}
+small{
+    color: red;
+    font-weight: 300;
+    display: none;
+}
+.show{
+    display: block;
+}
+
+button{
+    margin-top: 2rem;
+    padding: 1rem 6rem;
+    background-color: purple;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+    border-radius: 9px;
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.green{
+    
+    border: 2px solid rgb(72, 233, 72);
+}
+
+.red{
+    border: 2px solid red;
+}
